@@ -7,11 +7,11 @@ public class HelloVariablen : MonoBehaviour
     int myInt = 0;
     bool myBool = true;
     int[] myArray = new int[3] { 0, 0, 0 };
+    string a = "Hallo";
     void Start()
     {
         Debug.Log(sizeof(int));
         Debug.Log(sizeof(bool));
-
         //Value type
         int tmp = myInt; //Zwischengespeichert
         myInt = myInt++;
@@ -31,6 +31,10 @@ public class HelloVariablen : MonoBehaviour
         {
             Debug.Log(a);
         }
+
+        string tmpString = a;
+        a = "hello";
+        Debug.Log("a" + a + " tmpString " + tmpString);
 
     }
 
