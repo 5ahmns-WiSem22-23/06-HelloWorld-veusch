@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{081376D7-EC50-F472-3073-AABB9700D331}</ProjectGuid>
+    <ProjectGuid>{31A6923D-566C-41FA-06F6-BA0E3F658B88}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,6 +56,7 @@
     <Compile Include="Assets\MyGame\Scripts\HelloWorld.cs" />
     <Compile Include="Assets\MyGame\Scripts\TextManager.cs" />
     <Compile Include="Assets\MyGame\Scripts\HelloMethoden.cs" />
+    <Compile Include="Assets\MyGame\Scripts\HelloVariablen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -663,47 +664,47 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.csproj">
-      <Project>{04BBBC13-ED4C-DFF2-348A-E1A08CA51B12}</Project>
+      <Project>{6BAC81CE-BA0D-C7C8-B0C3-857326F42B83}</Project>
       <Name>Purchasing.Common</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
-      <Project>{0E10B35F-4019-3202-8C1C-D48825112AF6}</Project>
+      <Project>{BDF18429-EBBA-F998-522F-AF8F99D8FDE5}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{E8E7CCC5-766A-AE8F-FE8F-6DD190EACE9C}</Project>
+      <Project>{A3C63402-2F2C-CAEF-7216-4A6C81525480}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{C53E7C07-C296-05DA-E2F6-301875D4780D}</Project>
+      <Project>{F06ABF0C-838F-A0D0-826E-54972B40902D}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.csproj">
-      <Project>{08662D2B-5A2A-7D28-C2E3-0C8D81FB97D4}</Project>
+      <Project>{D27AF50B-B05E-F8DC-0585-73E16671F1CE}</Project>
       <Name>UnityEngine.Purchasing.SecurityStub</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Advertisements.csproj">
-      <Project>{D348F015-4299-70FB-51C1-14176E45F16C}</Project>
+      <Project>{CE4DA8D8-28C9-B921-DFD1-4403B1AC4D5A}</Project>
       <Name>UnityEngine.Advertisements</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
-      <Project>{41A5C086-E5C6-9422-90FC-00DE2AB6035D}</Project>
+      <Project>{B9F7C2F2-5C8E-2227-A558-AFCE77BAC0ED}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.csproj">
-      <Project>{6F6C4FAD-AFCE-9F7E-B957-2769890FCAA4}</Project>
+      <Project>{FA3DC609-518F-6398-D682-D5F66DC39EF5}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Codeless.csproj">
-      <Project>{1D49D732-E904-E645-67CA-2A17BC74B62C}</Project>
+      <Project>{9547455F-743F-F542-D8CC-F4EAE8C35A38}</Project>
       <Name>UnityEngine.Purchasing.Codeless</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Stores.csproj">
-      <Project>{70AF3AC0-4F3A-29DD-37CC-41F3BA246095}</Project>
+      <Project>{2833C508-FDC2-CF9D-01B3-7294E5E10D9B}</Project>
       <Name>UnityEngine.Purchasing.Stores</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Monetization.csproj">
-      <Project>{41586049-AC10-0166-E154-DF5E6FBE3192}</Project>
+      <Project>{83431CF5-224B-85C4-144C-DFE744219533}</Project>
       <Name>UnityEngine.Monetization</Name>
     </ProjectReference>
   </ItemGroup>

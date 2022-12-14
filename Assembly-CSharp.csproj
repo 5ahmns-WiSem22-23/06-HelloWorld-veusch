@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8C1E2CB6-4295-B6A0-DF4B-149387BBAA8F}</ProjectGuid>
+    <ProjectGuid>{870993B3-57D3-149D-235C-0D28C0FE6BD8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,6 +56,7 @@
     <Compile Include="Assets\MyGame\Scripts\HelloWorld.cs" />
     <Compile Include="Assets\MyGame\Scripts\TextManager.cs" />
     <Compile Include="Assets\MyGame\Scripts\HelloMethoden.cs" />
+    <Compile Include="Assets\MyGame\Scripts\HelloVariablen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -672,83 +673,83 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.csproj">
-      <Project>{04BBBC13-ED4C-DFF2-348A-E1A08CA51B12}</Project>
+      <Project>{6BAC81CE-BA0D-C7C8-B0C3-857326F42B83}</Project>
       <Name>Purchasing.Common</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{40FD68BA-8847-B9DD-5E0A-A5E5CC9E0145}</Project>
+      <Project>{D16FCB40-F768-1F60-53E0-8081713A7091}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
-      <Project>{0E10B35F-4019-3202-8C1C-D48825112AF6}</Project>
+      <Project>{BDF18429-EBBA-F998-522F-AF8F99D8FDE5}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{A3F73E0C-5A44-1CA3-CABA-6D17C70E89D2}</Project>
+      <Project>{420EBD37-F746-A5AE-6062-1920EE4BA016}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{97213863-E01A-8CC1-B1F4-E239667D54B9}</Project>
+      <Project>{DB75C05A-C6C3-4126-B597-B686FC318956}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{E8E7CCC5-766A-AE8F-FE8F-6DD190EACE9C}</Project>
+      <Project>{A3C63402-2F2C-CAEF-7216-4A6C81525480}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{C53E7C07-C296-05DA-E2F6-301875D4780D}</Project>
+      <Project>{F06ABF0C-838F-A0D0-826E-54972B40902D}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.csproj">
-      <Project>{08662D2B-5A2A-7D28-C2E3-0C8D81FB97D4}</Project>
+      <Project>{D27AF50B-B05E-F8DC-0585-73E16671F1CE}</Project>
       <Name>UnityEngine.Purchasing.SecurityStub</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Advertisements.csproj">
-      <Project>{D348F015-4299-70FB-51C1-14176E45F16C}</Project>
+      <Project>{CE4DA8D8-28C9-B921-DFD1-4403B1AC4D5A}</Project>
       <Name>UnityEngine.Advertisements</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{EAB46F19-6DBA-AA3E-6260-7F20E10AF8D7}</Project>
+      <Project>{920763C7-0DDE-C2AA-CFDB-FC276DC1BB5E}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{BF7F1430-A0FC-2674-E5E9-7508E43327FF}</Project>
+      <Project>{EEEFA4CC-4474-7EAE-EE25-E451330AAEE6}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Analytics.csproj">
-      <Project>{1E114629-F906-96F9-B507-D0F03C7DC293}</Project>
+      <Project>{10E38734-4B0C-24FF-3B05-E175647C3F99}</Project>
       <Name>Analytics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
-      <Project>{41A5C086-E5C6-9422-90FC-00DE2AB6035D}</Project>
+      <Project>{B9F7C2F2-5C8E-2227-A558-AFCE77BAC0ED}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.csproj">
-      <Project>{6F6C4FAD-AFCE-9F7E-B957-2769890FCAA4}</Project>
+      <Project>{FA3DC609-518F-6398-D682-D5F66DC39EF5}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Codeless.csproj">
-      <Project>{1D49D732-E904-E645-67CA-2A17BC74B62C}</Project>
+      <Project>{9547455F-743F-F542-D8CC-F4EAE8C35A38}</Project>
       <Name>UnityEngine.Purchasing.Codeless</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{49492DD8-6359-015E-1DE1-184318625B09}</Project>
+      <Project>{93C2910F-C6F9-FD06-213E-E6B9D934BD3E}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Stores.csproj">
-      <Project>{70AF3AC0-4F3A-29DD-37CC-41F3BA246095}</Project>
+      <Project>{2833C508-FDC2-CF9D-01B3-7294E5E10D9B}</Project>
       <Name>UnityEngine.Purchasing.Stores</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Monetization.csproj">
-      <Project>{41586049-AC10-0166-E154-DF5E6FBE3192}</Project>
+      <Project>{83431CF5-224B-85C4-144C-DFE744219533}</Project>
       <Name>UnityEngine.Monetization</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.Purchasing.csproj">
-      <Project>{C96F7E17-00C5-25EB-01E4-3883D39CED10}</Project>
+      <Project>{527A5532-2ABC-4D88-2E6A-685878C20273}</Project>
       <Name>UnityEditor.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Advertisements.Editor.csproj">
-      <Project>{5EC0843A-B227-0BE7-50FE-F4FE0654DB9A}</Project>
+      <Project>{ADBCFDBF-D8F8-1083-10FC-631A44AEB304}</Project>
       <Name>UnityEngine.Advertisements.Editor</Name>
     </ProjectReference>
   </ItemGroup>
