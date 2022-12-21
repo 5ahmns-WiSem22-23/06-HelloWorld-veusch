@@ -70,5 +70,7 @@ public class HelloOperatoren : MonoBehaviour
 
             Debug.Log("2 ist kleiner 3");
         }
+
+       
     }
 }
