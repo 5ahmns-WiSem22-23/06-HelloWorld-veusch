@@ -57,6 +57,7 @@
     <Compile Include="Assets\MyGame\Scripts\TextManager.cs" />
     <Compile Include="Assets\MyGame\Scripts\HelloMethoden.cs" />
     <Compile Include="Assets\MyGame\Scripts\HelloVariablen.cs" />
+    <Compile Include="Assets\MyGame\Scripts\HelloOperatoren.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
